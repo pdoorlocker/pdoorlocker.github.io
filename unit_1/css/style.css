@@ -1,7 +1,7 @@
 body {
 	color: white;
+	background-color: rgb(53, 54, 58);
 }
 h1, p {
-	background-color: rgb(53, 54, 58);
 	font-family: Arial, sans-serif;
 }
