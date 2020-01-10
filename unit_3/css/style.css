@@ -1,0 +1,87 @@
+* {
+	margin:0; 
+	padding:0;
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+header {
+	padding:10px;
+	background-color:grey;
+}
+nav a {
+	margin-right: 1%;
+	margin-bottom:0px;
+	text-decoration:none;
+	color:white;
+}
+body {
+	background-color:#FFFDE3;
+}
+main {
+	padding-bottom:2%;
+}
+/*main {
+	background-image: url("../images/Amelia_Earhart_flight_route.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+#logo {
+	font-size:30px;
+	font-weight:bold;
+}
+
+#slogan {
+	font-style:italic;
+	font-weight:400;
+	font-size:23px;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+img {
+	width:100%;
+}
+h1 {
+	margin:5px;
+
+}
+main a {
+	padding-left:5%;
+	padding-right:5%;
+	font-weight:500;
+	font-size:19px;
+	color:black;
+	text-decoration:none;
+}
+
+main p {
+	padding-left:5%;
+	padding-right:5%;
+	align-content:center;
+	padding-top:1%;
+	font-weight:250;
+}
+
+footer {
+	padding-top:2%;
+	padding-bottom:2%;
+}
+footer, footer a {
+	background-color:grey;
+	color:white;
+}
+
+footer p {
+	text-align:center;
+}
+
+#main-links {
+	align-content:center;
+	text-align: center;
+}
+
+#secrets {
+	font-size:8px;
+}
