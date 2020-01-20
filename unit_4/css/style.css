@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Ibarra+Real+Nova&display=swap');
+* {
+	margin:0; 
+	padding:0;
+	font-family:"Ibarra Real Nova",Arial,sans-serif;
+}
+header {
+	padding:10px;
+	background-color:grey;
+}
+nav a {
+	margin-right: 1%;
+	margin-bottom:0px;
+	text-decoration:none;
+	color:white;
+}
+body {
+	background-color:#FFFDE3;
+}
+main {
+	font-size:16px;
+}
+/*main {
+	background-image: url("../images/Amelia_Earhart_flight_route.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+img {
+	width:100%;
+}
+h1 {
+	margin:5px;
+
+}
+main a {
+	padding-left:5%;
+	padding-right:5%;
+	font-weight:500;
+	color:black;
+	text-decoration:none;
+}
+
+main p {
+	font-weight:250;
+	margin: 0 0 1.5rem;
+	line-height: 1.5em;
+}
+
+section {
+	margin: 3% auto;
+	max-width:500px;
+}
+
+footer {
+	padding-top:2%;
+	padding-bottom:2%;
+}
+footer, footer a {
+	background-color:grey;
+	color:white;
+}
+
+footer p {
+	text-align:center;
+}
+
+.slogan {
+	font-weight:200;
+	font-size:2em;
+	text-align:center;
+	font-family:'IM Fell Great Primer SC';
+}
+.logo {
+	font-size:3em;
+	font-weight:bold;
+}
+#slogan-box {
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:20px;
+	padding-bottom:20px;
+	max-width:none;
+}
+#first-line {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+#main-section {
+	width:75%;
+}
+
+#main-image {
+	width:100%;
+	max-width:none;
+}
+
+
+
+#main-links {
+	text-align: center;
+}
+
+#secrets {
+	font-size:0.5em;
+}
