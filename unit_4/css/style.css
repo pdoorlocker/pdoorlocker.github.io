@@ -93,10 +93,8 @@ footer p {
 
 #main-image {
 	width:100%;
-	max-width:none;
+	max-width:1354px;
 }
-
-
 
 #main-links {
 	text-align: center;
