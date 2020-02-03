@@ -75,6 +75,12 @@ footer p {
 	font-size:3em;
 	font-weight:bold;
 }
+
+.bottom-links {
+	width:33% auto;
+	border:1px black solid;
+
+}
 #slogan-box {
 	padding-left:5%;
 	padding-right:5%;
@@ -98,6 +104,15 @@ footer p {
 
 #main-links {
 	text-align: center;
+	/*margin:0;*/
+	/*padding:0;*/
+}
+#main-links a {
+	width:33%;
+	display: block;
+	float:left;
+	margin:0;
+	padding:0;
 }
 
 #secrets {
