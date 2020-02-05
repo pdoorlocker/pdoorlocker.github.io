@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Ibarra+Real+Nova&display=swap');
+* {
+	margin:0; 
+	padding:0;
+	font-family:"Ibarra Real Nova",Arial,sans-serif;
+	box-sizing: border-box;
+}
+
+header {
+	background-color:rgb(180, 80,  60);
+	
+}
+nav a {
+	font-family:serif;
+	letter-spacing: 1px;
+	text-decoration:none;
+	color:white;
+	background-color:transparent;
+	padding:0.5em 2em;
+	height:100%;
+	float:left;
+	font-variant: small-caps;
+	font-size:1.5em;
+	display:inline-block;
+	border-bottom: 4px solid black;
+}
+nav a:hover {
+	background-color:black;
+	color:white;
+	border-bottom: 4px solid white;
+	
+}
+body {
+	background-color:#FFFDE3;
+}
+main {
+	font-size:2vh;
+}
+/*main {
+	background-image: url("../images/Amelia_Earhart_flight_route.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+img {
+	width:100%;
+}
+h1 {
+	margin:5px;
+
+}
+
+main p {
+	font-weight:250;
+	margin: 0 0 1.5rem;
+	line-height: 1.5em;
+}
+
+section {
+	margin: 3% auto;
+	max-width:550px;
+}
+
+footer {
+	padding-top:2%;
+	padding-bottom:2%;
+}
+footer, footer a {
+	background-color:grey;
+	color:white;
+}
+
+footer p {
+	text-align:center;
+}
+
+.slogan {
+	font-weight:200;
+	font-size:2em;
+	text-align:center;
+	font-family:'IM Fell Great Primer SC';
+}
+.logo {
+	font-size:3em;
+	font-weight:bold;
+}
+
+.bottom-links {
+	width:33% ;
+	border:1px black solid;
+
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+}
+.twofivepc-margin {
+	padding:1%;
+	display:block;
+	background-color:none;
+	float:left;
+}
+.amelia-image {
+	max-width:48%;
+	float:left;
+	max-height:350px;
+	clear:both;
+	object-fit:cover;
+}
+.amelia-text {
+	width:48%;
+	min-height:33%;
+	max-width: 48%;
+	background-color:#FFFDE3;
+	max-height:33%;
+	padding: 1em 2em;
+	margin:auto;
+	line-height:1.5em;
+	height:33%;
+}
+.amelia-text ol, .amelia-text p {
+	margin: 1em 0 0 1em;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.break {
+	height:1em;
+	width:100%;
+	clear:both;
+	display:block;
+}
+#logo {
+	background-color:transparent;
+	font-size:1em;
+	border-bottom: none;
+}
+#slogan-box {
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:20px;
+	padding-bottom:20px;
+	max-width:none;
+}
+#first-line {
+	font-size: 2em;
+	font-weight: 500;
+	text-align:left;
+	margin-left:0;
+}
+
+#main-section {
+	width:75%;
+	text-align:center;
+}
+
+#main-image {
+	width:100%;
+	max-width:1354px;
+}
+
+
+#images-div {
+	max-width:750px;
+	margin:auto;
+}
+#sidebar-div {
+	max-width:48%;
+	float:right;
+	margin:1% auto;
+	clear:right;
+}
+
+#facts-images {
+	background-color: rgb(180, 80,  60);
+	max-width:800px;
+	padding: 2em;
+}
+
+#amelia-images {
+	margin: auto;
+	max-width:95%;
+}
+
+
+#main-links a {
+	text-align: center;
+	width:32%;
+	display: block;
+	float:left;
+	/*border:1px black solid;*/
+	font-weight:500;
+	color:black;
+	text-decoration:none;
+	color: rgb(255,255,255);
+	background-color:grey;
+/*	margin-left:auto;
+	margin-right:1px;*/
+	padding:.5em;
+	font-variant: small-caps;
+}
+#secrets {
+	font-size:0.5em;
+}
+
+
+/**/
+/*header {
+	background-color:#FFED74;
+}
+nav {
+background-color:#E8C66A;
+}
+aside {
+background-color:#FFC675;
+}
+footer {
+	background-color:#FF957E;
+}
+section {
+	background-color:#FFE2B8;
+}
+div {background-color:#FFE2B8;}*/
+
+/**/
