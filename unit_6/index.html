@@ -82,21 +82,20 @@
 			<p id="secrets">Interested in learning more about what happened to Amelia? It all has to do with <a href="https://en.wikipedia.org/wiki/Inner_ear#Equilibrium">ear hearts...</a></p>
 		</footer>
 			<script> 
-		function image_adjust() {
-			a = document.querySelectorAll('.amelia-image')
-			b = document.querySelectorAll('.amelia-text')
-			for (ele in b) {
-			console.log(ele)
-			console.log('a: '.concat(a[ele].height))
-			console.log('b: '.concat(b[ele].offsetHeight))
-			    if(a[ele].height > b[ele].offsetHeight) {
-			    	console.log(a[ele].height.toString().concat('px'))
-			        b[ele].style.height = a[ele].height.toString().concat('px')
-			    }
-			}
-		}
-		image_adjust()
-		window.addEventListener('resize', image_adjust)
-	</script>
+				a = document.querySelectorAll('.amelia-image')
+				b = document.querySelectorAll('.amelia-text')
+				function image_adjust() {
+
+					for (ele in b) {
+					    if(a[ele].height > b[ele].offsetHeight) {
+					        b[ele].style.height = a[ele].height.toString().concat('px')
+					    } else if (a[ele].height < b[ele].offsetHeight) {
+					    	b[ele].style.height = '33%'
+					    }
+					}
+				}
+				image_adjust()
+				window.addEventListener('resize', image_adjust)
+			</script>
 	</body>
 </html>
